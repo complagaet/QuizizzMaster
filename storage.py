@@ -63,7 +63,10 @@ class Table:
 
             correct_answers = []
             for correct in question['correctAnswer']:
-                correct_answers.append(question['answers'].index(correct) + 1)
+                try:
+                    correct_answers.append(question['answers'].index(correct) + 1)
+                except:
+                    continue
             ws[f'{alphabet[2 + max_count]}{row}'] = str(", ".join(map(str, correct_answers)))
 
             ws[f'{alphabet[3 + max_count]}{row}'] = 20
