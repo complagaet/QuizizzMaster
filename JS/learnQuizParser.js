@@ -5,8 +5,8 @@ for (let q of document.getElementsByClassName("problem")) {
 
   let question = {
     question: "",
-      answers: [],
-      correctAnswer: []
+    answers: [],
+    correctAnswer: []
   }
 
   for (let i of questionElement) {
