@@ -21,7 +21,7 @@ def main(params):
 
         driver.execute_script(
             js_collection.show_info_screen(
-                f"<span style=\"color: green; font-weight: bold\">Добро пожаловать в QuizzizMaster</span><br>"
+                f"<span style=\"color: green; font-weight: bold\">Добро пожаловать в QuizizzMaster</span><br>"
                 f"Чтобы продолжить войди в учётку бро"
             )
         )

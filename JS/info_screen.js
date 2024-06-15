@@ -19,7 +19,7 @@ let InfoScreen = {
                     padding: 15px 25px 15px 15px" class="bobatron" Bt-CM="1.4">
                     <div style="height: 100px; width: 100px; background-image: url('https://i.imgur.com/4nsOYag.jpeg'); background-size: contain" class="bobatron"></div>
                     <div style="display: flex; flex-direction: column; gap: 5px; justify-content: space-between">
-                        <div style="margin: 0; padding: 0; font-weight: bold">QuizzizMaster</div>
+                        <div style="margin: 0; padding: 0; font-weight: bold">QuizizzMaster</div>
                         <div style="padding: 0; margin: 0" id="SchATData">${data}</div>
                     </div>
                 </div>
